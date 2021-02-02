@@ -79,12 +79,13 @@ function time() {
 
 };
 
-// call the funtion time()
+
 time();
 
 // on click function
 $(".saveButton").on("click", function (event) {
-    // prevents refresh when saveButton is clicked
+
+    // 
     event.preventDefault();
 
     // variable "textarea" holds the previous sibling of saveButton which is (textarea).
